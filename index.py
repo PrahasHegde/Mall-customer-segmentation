@@ -57,7 +57,7 @@ plt.ylabel('Inertia')
 plt.show()
 
 #model using 5 clusters
-KMeansModel = KMeans(n_clusters=5, random_state=786)
+KMeansModel = KMeans(n_clusters=5, random_state=777)
 KMeansModel.fit(X)
 
 #centroids
